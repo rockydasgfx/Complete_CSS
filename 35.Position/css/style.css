@@ -1,0 +1,74 @@
+body{
+    height: 1000px;
+}
+.parent{
+    border: 1px solid red;
+    padding: 20px;
+    width: 50%;
+    margin-left: 200px;
+    
+}
+.one{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    display: inline-block;
+}
+.two{
+    width: 100px;
+    height: 100px;
+    background-color: chartreuse;
+    display: inline-block;
+    position: relative;
+    top: 50px;
+    left: 25px;
+}
+.three{
+    width: 100px;
+    height: 100px;
+    background-color: coral;
+    display: inline-block;
+}
+
+/* absolute */
+.parent-absolute{
+    border: 1px solid red;
+    padding: 20px;
+    width: 50%;
+    margin: 50px 0 0 200px;
+    position: relative;
+
+}
+.one-absolute{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    display: inline-block;
+}
+.two-absolute{
+    width: 100px;
+    height: 100px;
+    background-color: chartreuse;
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    bottom: 20px;
+    left: -50px;
+
+}
+.three-absolute{
+    width: 100px;
+    height: 100px;
+    background-color: coral;
+    display: inline-block;
+}
+
+/* .fixed */
+.fixed{
+    width: 50px;
+    height: 50px;
+    background-color: cornflowerblue;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}

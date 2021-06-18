@@ -1,0 +1,53 @@
+ul{
+    background-color: brown;
+    list-style-type: none;
+    border: 1px solid gold;
+    overflow: auto;
+}
+li{
+    color: white;
+    padding: 5px 10px;
+    float: left;
+}
+
+.ex2-img{
+    width: 100px;
+    height: auto;
+    padding: 10px;
+    overflow: auto;
+}
+.img1{
+    float: right;
+}
+.img2{
+    float: left;
+}
+
+.ex3-p{
+    border: 1px solid blue;
+    overflow: auto;
+}
+.img3{
+    float: right;
+}
+.img4{
+    float: right;
+    clear: both;
+}
+
+.content{
+    width: 70%;
+    background-color: green;
+    height: 200px;
+    float: left;
+}
+.sidebar{
+    width: 30%;
+    background-color: indianred;
+    height: 150px;
+    float: right;
+}
+.footer{
+    background-color: yellowgreen;
+    clear: both;
+}

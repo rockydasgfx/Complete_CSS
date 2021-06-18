@@ -1,0 +1,14 @@
+textarea{
+    resize: none;
+}
+
+.resize{
+    width: 200px;
+    height: 300px;
+    background-color: aqua;
+    overflow: auto;
+    /* resize: none; */
+    resize: both;
+    /* resize: horizontal; */
+    /* resize: vertical; */
+}

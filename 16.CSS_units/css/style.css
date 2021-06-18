@@ -1,0 +1,20 @@
+html{
+    font-size: 14px;
+}
+.parent{
+    border: 1px solid greenyellow;
+    /* width: 100mm; */
+    /* width: 5in; */
+    /* width: 500pt; */
+    /* width: 30pc; */
+    /* width: 50vw;
+    height: 50vh; */
+    /*---- responsive text----*/
+    font-size: 3vw;
+}
+.child{
+    border: 1px solid blueviolet;
+    /* width: 50%; */
+    font-size: 4rem;
+
+}

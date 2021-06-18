@@ -1,0 +1,40 @@
+.background{
+    /* background-color: yellow; */
+    background-image: url(../images/bg.jpg);
+    background-repeat: no-repeat;
+    /* background-repeat: repeat-y; */
+    /* background-position: center center; */
+    /* background-position: 5% 10%; */
+    background-size: 100% 100%;
+    /* background-size: cover; */
+    background-attachment: fixed;
+    /* background: white url(../images/bg.jpg) no-repeat fixed 5% 10%; */
+    
+    
+}
+/* body{
+    background-color: teal;
+} */
+p{
+    color: white;
+}
+/* multipal background  */
+.multi-bg{
+    width: 1366px;
+    height: 786px;
+    background-color: rgb(32, 60, 139);
+    background-image: url(../images/multi-bg.png);
+    background-repeat: no-repeat;
+    /* background-size: 100% 100%; */
+    background-position: center;
+}
+.multi-bg-img{
+    width: 1366px;
+    height: 786px;
+    background-image: url(../images/atom.png), url(../images/reactjs.png);
+    background-repeat: no-repeat;
+    background-position: left top, right top;
+}
+.multi-bg-img h2{
+    text-align: center;
+}

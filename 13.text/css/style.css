@@ -1,0 +1,52 @@
+.text{
+    width: 500px;
+    border: 1px solid tomato;
+    color: goldenrod;
+    text-align: justify;
+    direction: ltr;
+    
+}
+.vertical-align{
+    width: 500px;
+    border: 1px solid tomato;
+}
+img{
+    border: 1px solid teal;
+    width: 80px;
+    vertical-align: middle;
+}
+.text-decoration-transform{
+    /* text-decoration: underline;
+    text-decoration: overline; */
+    text-decoration: none;
+    /* text-decoration: line-through; */
+    text-transform: capitalize;
+}
+.line-height{
+    line-height: 30px;
+}
+.text-indent{
+    text-indent: 50px;
+    /* letter-spacing: ; */
+}
+.letter-spacing-word-spacing{
+    letter-spacing: 3px;
+    word-spacing: 20px;
+    /* white-space: pre; */
+}
+.word-wrap{
+    /* width: 200px; */
+    /* word-wrap: break-word; */
+}
+.border-width{
+    border: 1px solid springgreen;
+}
+.text-shadow{
+    
+    font-size: 70px;
+    text-shadow: 3px 5px 6.5px red;
+}
+.vartical-writting{
+    font-size: 15px;
+    writing-mode: vertical-lr;
+}

@@ -1,0 +1,12 @@
+li:first-child{
+    color: red;
+}
+li:last-child{
+    color: blue;
+}
+li:nth-child(even){
+    color: chocolate;
+}
+input:focus{
+    border: 5px solid red;
+}

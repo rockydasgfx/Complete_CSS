@@ -1,0 +1,15 @@
+body{
+    border: 2px solid red;
+    max-width: 768px;
+    
+}
+.div1{
+    
+    background-color: blueviolet;
+    height: 500px;
+    width: 70%;
+    max-width: ;
+    max-height: ;
+    min-width: ;
+    min-height: ;
+}

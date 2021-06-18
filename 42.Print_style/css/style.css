@@ -1,0 +1,10 @@
+@media print{
+    p{
+        color: red;
+    }
+}
+@media screen {
+    p{
+        font-size: 30px;
+    }
+}

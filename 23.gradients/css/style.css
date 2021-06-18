@@ -1,0 +1,13 @@
+.linear{
+    height: 500px;
+    /* background-image: linear-gradient(to bottom right, green, blue ,red); */
+    background-image: linear-gradient(120deg, green, blue ,red);
+    margin: 50px;
+}
+
+.radial{
+    height: 500px;
+    /* background-image: radial-gradient(circle, tomato, gold, teal); */
+    background-image: radial-gradient(circle, tomato 20%, gold 30%, teal 50%);
+    margin: 0 50px 50px 50px;
+}

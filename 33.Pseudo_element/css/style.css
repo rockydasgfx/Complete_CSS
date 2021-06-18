@@ -1,0 +1,18 @@
+p::first-line{
+    font-size: 20px;
+    color: red;
+}
+p::first-letter{
+    font-size: 30px;
+}
+h1::before{
+    content: url(../image/arrow.png);
+}
+h1::after{
+    content: " added after";
+}
+
+::selection{
+    color: salmon;
+    background-color: springgreen;
+}

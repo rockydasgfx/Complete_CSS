@@ -1,0 +1,23 @@
+.div1{
+    background-color: goldenrod;
+    width: 600px;
+    height: 150px;
+}
+
+.div2{
+    background-color: greenyellow;
+    width: 600px;
+    height: 150px;
+    padding: 50px;
+    border: 10px solid salmon;
+    box-sizing: content-box; /*By Deffolt*/
+}
+
+.div3{
+    background-color: tomato;
+    width: 600px;
+    height: 150px;
+    padding: 50px;
+    border: 10px solid goldenrod;
+    box-sizing: border-box;
+}

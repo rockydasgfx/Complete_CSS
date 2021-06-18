@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'Kohinoor';
+    src: url('../fonts/Kohinoor/KohinoorBangla-Bold.otf');
+}
+h1{
+    font-family: 'Poppins';
+    /* font-weight: 900; */
+}
+p{
+    font-size: 30px;
+    /* font-weight: bold; */
+    /* font-style: italic; */
+    /* font-variant: small-caps; */
+    font-family: 'Poppins';
+}
+.font-link h1{
+    font-family: 'Kohinoor' ;
+}
+.font-link p{
+    font-size: 30px;
+    font-family: 'Kohinoor';
+}
